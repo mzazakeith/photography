@@ -1,0 +1,36 @@
+html{
+  align-items: center;
+  background-color: rgb(79, 79, 79);
+}
+h1{
+  text-align: center;
+  color: rgb(37, 46, 57);
+  font-weight: bolder;
+}
+.column{
+  width: 24%;
+  float: left;
+  padding: 1px;
+}
+h3{
+  text-align: center;
+  color: inherit;
+}
+img{
+  border:2px;
+  border-style: solid;
+  border-color:rgb(255, 255, 255);
+  height:250px;
+  width:95%;
+  float: none;
+}
+@media screen and (min-width: 375px)  and (max-width: 667px)
+ {
+   .column{
+     float: none;
+     width: 100%
+   }
+   .img{
+     width: 100%
+   }
+}
